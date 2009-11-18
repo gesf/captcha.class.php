@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------
 // captcha.php
 // This file gets the request and initialize the CAPTCHA class
-// Copyright (c) 2005 Gonçalo "gesf" Fontoura.
+// Copyright (c) 2005 GonÃ§alo "gesf" Fontoura.
 // -------------------------------------------------------------------
 
 define("INSITE", true);
@@ -43,4 +43,3 @@ $string = isset($_GET['s']) ? trim($_GET['s']) : '';
 $sensecase = isset($_GET['c']) ? trim($_GET['c']) : 5;
 
 $captcha = new Captcha($userstring, $captchatype);
-
