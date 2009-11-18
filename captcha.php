@@ -43,3 +43,4 @@ $string = isset($_GET['s']) ? trim($_GET['s']) : '';
 $sensecase = isset($_GET['c']) ? trim($_GET['c']) : 5;
 
 $captcha = new Captcha($userstring, $captchatype);
+
